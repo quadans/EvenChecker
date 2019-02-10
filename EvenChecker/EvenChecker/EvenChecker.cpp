@@ -15,11 +15,11 @@ int main()
 	int zahlEingabe = 0;
 	std::cin >> zahlEingabe;
 	bool Auswertung= isEven(zahlEingabe);
-	if (Auswertung == false)
+	if (Auswertung == 0)
 	{
 		std::cout << "Zahl ist gleich!\n";
 	}
-	if (Auswertung == true)
+	if (Auswertung == 1)
 	{
 		std::cout << "Zahl ist ungleich!\n";
 	}
